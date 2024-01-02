@@ -2,11 +2,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 /*
-qmk compile -kb avalanche/v4 -km default
-qmk flash -kb avalanche/v4 -km default
+qmk compile -kb avalanche/v4 -km mike
+qmk flash -kb avalanche/v4 -km mike
 */
 
 #include QMK_KEYBOARD_H
+
+#define SPLIT_USB_DETECT
 
 enum layer {
     LAYER_0,
