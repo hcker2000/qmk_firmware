@@ -8,8 +8,6 @@ qmk flash -kb avalanche/v4 -km mike
 
 #include QMK_KEYBOARD_H
 
-#define SPLIT_USB_DETECT
-
 enum layer {
     LAYER_0,
     LAYER_1,
